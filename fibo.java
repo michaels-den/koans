@@ -2,12 +2,6 @@ class fibo {
 
 public static void main(String[] args) {
 
-	
-	int total = 0;
-	int number = fib(6);
-	
-	System.out.println("number is: " + number);
-	
 	for(int i = 0; i< 10000; i++) {
 		if (fib(i) % 2 == 0) {
 			total += fib(i);
@@ -19,10 +13,6 @@ public static void main(String[] args) {
 	}
 	
 	System.out.println("total is: " + total);
-	
-	
-
-
 }
 
 public static int fib(int n) {
