@@ -1,6 +1,8 @@
 import java.util.ArrayList;
 import java.util.List;
 
+
+//  This one is wrong because it double-counts multiples of both 3 and 5***
 class firstOne {
     public static void main(String[] args) {
 
